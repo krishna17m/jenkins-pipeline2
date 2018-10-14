@@ -1,7 +1,7 @@
 node{
 stage('SCM Checkout'){
 git credentialsId: 'eb8c9e31-6976-4d53-943e-b9f53e9c17ac',                                     
-url: 'https://github.com/krishna17m/jenkins-pipeline2.git'
+url: 'https://github.com/krishna17m/jenkins-pipeline2.git/my-app'
 }
 }
 
